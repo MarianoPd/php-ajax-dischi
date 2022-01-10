@@ -28,7 +28,6 @@
             <div class="row my-row">
                 <?php foreach($posters as $key => $poster){?>
                     
-
                     <div class="col-2 my-card ">
                         <img src="<?php echo $poster['poster'] ?>" alt="<?php echo $poster['title'] ?>">
                         <h3><?php echo $poster['title'] ?></h3>
@@ -36,17 +35,12 @@
                         <p><?php echo$poster['year'] ?></p>
                     </div>
                 <?php }?>
-                
-                
-            
-                
+                                               
             </div>
         </div>
     </main>
     
 
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
-    <script src="js/vue.js"></script>
+    
 </body>
 </html>
